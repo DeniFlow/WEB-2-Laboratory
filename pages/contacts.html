@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты — Сити-Класс</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <table class="header" width="100%">
+      <tr>
+        <td width="200">
+          <a href="../index.html"><img src="../images/logo.svg" alt="Логотип"></a>
+        </td>
+        <td class="title">Сити-Класс</td>
+        <td width="200">
+		  <table class="login-table" width="100%">
+			<tr>
+				<td align="right">логин:</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td align="right">пароль:</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align="right">
+					<input type="submit" value="Войти">
+					<button type="button" onclick="window.location.href='register.html'">Зарегистрироваться</button>
+				</td>
+			</tr>
+		</table>
+
+        </td>
+      </tr>
+    </table>
+  </header>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="#">раздел 1</a></li>
+      <li><a href="#">раздел 2</a></li>
+      <li><a href="#">раздел 3</a></li>
+      <li><a href="#">раздел 4</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <table width="100%">
+      <tr>
+        <td class="sidebar">
+          <a href="about.html">О нас</a>
+          <a href="../index.html">Главная</a>
+          <a href="contacts.html" class="active">Контакты</a>
+          <a href="catalog.html">Каталог</a>
+		  <a href="guest.html" class="review-btn">Оставить отзыв</a>
+        </td>
+        <td class="content">
+          <h2 align="center">Свяжитесь с нами</h2>
+
+          <form class="contact-form">
+            <label>Ваше имя:</label>
+            <input type="text" name="name" placeholder="Введите имя">
+
+            <label>Электронная почта:</label>
+            <input type="email" name="email" placeholder="Введите email">
+
+            <label>Сообщение:</label>
+            <textarea name="message" rows="5" placeholder="Ваше сообщение"></textarea>
+
+            <input type="submit" value="Отправить">
+          </form>
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <footer class="footer">
+    8 (804) 333 71 26 © 2025 Сити-Класс. Все права защищены.
+  </footer>
+</div>
+
+</body>
+</html>
