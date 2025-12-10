@@ -4,17 +4,17 @@ $products = [
     "Ботинки" => [
         "description" => "Мужские ботинки из натуральной кожи. Осень/зима.",
         "price" => "3500 руб",
-        "image" => "../images/boots_men.jpg"
+        "image" => "images/boots_men.jpg"
     ],
     "Туфли" => [
         "description" => "Женские туфли, легкие и удобные.",
         "price" => "2800 руб",
-        "image" => "../images/boots_women.jpg"
+        "image" => "images/boots_women.jpg"
     ],
     "Сапоги" => [
         "description" => "Теплые зимние сапоги с натуральным мехом.",
         "price" => "4200 руб",
-        "image" => "../images/shoes3.jpg"
+        "image" => "images/shoes3.jpg"
     ],
 ];
 
@@ -57,7 +57,7 @@ if(isset($_POST['search_q'])){
         <p>Товаров, начинающихся с "<?php echo isset($q) ? $q : ''; ?>", не найдено.</p>
     <?php endif; ?>
 
-    <p><a href="index.html">Вернуться на главную</a></p>
+    <p><a href="index.php">Вернуться на главную</a></p>
 </div>
 </body>
 </html>

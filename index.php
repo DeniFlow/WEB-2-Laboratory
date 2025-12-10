@@ -52,7 +52,7 @@
                 <a href="pages/about.html">О нас</a>
                 <a href="index.html">Главная</a>
                 <a href="pages/contacts.html">Контакты</a>
-                <a href="pages/catalog.html">Каталог</a>
+                <a href="catalog.php">Каталог</a>
 				<a href="pages/guest.html" class="review-btn">Оставить отзыв</a>
             </td>
             <td class="content">
